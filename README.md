@@ -4,7 +4,7 @@ docker build -t wappalyzer-api .
 # Run container
 docker run --rm -p 3000:3000 --name wappalyzer-api wappalyzer-api 
 
-Extension repository from Wappalyzer Next (https://github.com/s0md3v/wappalyzer-next) 
+Extension repository from Wappalyzer Next (https://github.com/s0md3v/wappalyzer-next) to run docker with api
 # Wappalyzer Next
 
 This project is a command line tool and python library that uses [Wappalyzer](https://www.wappalyzer.com/) extension (and its fingerprints) to detect technologies. Other projects that emerged after the discontinuation of the official open-source project are using outdated fingerprints and lack accuracy when used on dynamic web apps. This project bypasses those limitations.
