@@ -26,7 +26,7 @@ def scan():
     try:
         # Run wappalyzer
         subprocess.run(
-            ["wappalyzer", "-i", url,"--scan-type balanced", "-oJ", out_file],
+            ["wappalyzer", "-i", url,"--scan-type","balanced", "-oJ", out_file],
             check=True,
             timeout=90
         )
