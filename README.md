@@ -1,9 +1,8 @@
-# Build image
+# Build image& Run container
+```bash
 docker build -t wappalyzer-api .
-
-# Run container
 docker run --rm -p 3000:3000 --name wappalyzer-api wappalyzer-api 
-
+```
 Extension repository from Wappalyzer Next (https://github.com/s0md3v/wappalyzer-next) to run docker with api
 # Wappalyzer Next
 
